@@ -83,17 +83,9 @@
     <build>
         <plugins>
             <plugin>
-      <!-- Build an executable JAR -->
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-jar-plugin</artifactId>
-      <configuration>
-        <archive>
-          <manifest>
-            <mainClass>com.example.backend.MainApplication</mainClass>
-          </manifest>
-        </archive>
-      </configuration>
-    </plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
         </plugins>
     </build>
 
